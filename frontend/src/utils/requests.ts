@@ -1,6 +1,8 @@
-export const BASE_URL = process.env.REACT_APP_BACKEND_URL ?? 'http://localhost:8080';
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL;
 
 /*
+ ?? 'http://localhost:8080'
+
 process.env.REACT_APP_ = o prefixo é lá do netlify
 BACKEND_URL = Variavel definina lá no netlify
  
